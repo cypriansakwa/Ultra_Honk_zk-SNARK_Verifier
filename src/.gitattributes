@@ -1,16 +1,3 @@
-# Vendored libraries
-node_modules/** linguist-vendored
-lib/** linguist-vendored
-
-# Build output
-build/** linguist-vendored
-dist/** linguist-vendored
-out/** linguist-vendored
-
-# Solidity ABIs (JSON files from build)
-*.abi.json linguist-vendored
-*.bin.json linguist-vendored
-
-# All JS except core logic
-*.min.js linguist-vendored
-*.test.js linguist-vendored
+*.sol linguist-detectable=false
+*.sol linguist-vendored
+*.nr linguist-detectable=true
