@@ -1,4 +1,4 @@
-# Ultra Honk zk-SNARK Verifier (Solidity)
+# Ultra Honk zk-SNARK Verifier
 
 This repository contains an Ethereum-compatible zk-SNARK verifier smart contract implementing the **Ultra Honk** proving system, a test for that contract, and a Hardhat Ignition module that deploys that contract. It includes verification logic, custom field operations, elliptic curve utilities, and Fiat-Shamir transcript generation, all optimized for zero-knowledge proof verification in Solidity.
 
