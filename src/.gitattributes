@@ -1,3 +1,16 @@
-*.sol linguist-detectable=false
-*.sol linguist-vendored
+# Keep Solidity counted
+*.sol linguist-vendored=false
+*.sol linguist-detectable=true
+
+# Keep JavaScript but ignore generated/test files
+*.min.js linguist-vendored
+*.test.js linguist-vendored
+node_modules/** linguist-vendored
+lib/** linguist-vendored
+build/** linguist-vendored
+dist/** linguist-vendored
+out/** linguist-vendored
+
+# Ensure Noir files are counted as 'Noir'
+*.nr linguist-language=Noir
 *.nr linguist-detectable=true
