@@ -1,5 +1,16 @@
-# Ignore generated JS files
-*.js linguist-vendored
+# Vendored libraries
+node_modules/** linguist-vendored
+lib/** linguist-vendored
 
-# Ignore Solidity contract build artifacts
-/build/* linguist-vendored
+# Build output
+build/** linguist-vendored
+dist/** linguist-vendored
+out/** linguist-vendored
+
+# Solidity ABIs (JSON files from build)
+*.abi.json linguist-vendored
+*.bin.json linguist-vendored
+
+# All JS except core logic
+*.min.js linguist-vendored
+*.test.js linguist-vendored
