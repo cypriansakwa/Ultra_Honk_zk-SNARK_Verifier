@@ -32,7 +32,28 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 - `RelationsLib`: Evaluates relation constraints for proof verification.
 - `HonkVerificationKey`: Hardcoded verification key for a specific circuit.
 - `pairing(...)`: Bilinear pairing checks using Ethereum's BN254 precompile.
+## 📦 Prerequisites
 
+To build or test this contract, you will need:
+
+- [Node.js](https://nodejs.org/) (v16 or newer)
+- [Foundry](https://book.getfoundry.sh/) or [Hardhat](https://hardhat.org/)
+- `solc` version `>=0.8.21`
+- Git
+
+If you plan to test locally or simulate proof verifications, you'll also need:
+
+- An Ethereum development node (e.g. [Anvil](https://book.getfoundry.sh/reference/anvil/))
+- Sample proof and VK inputs (not included here)
+
+---
+
+## 🔧 Installation
+Clone this repository
+```bash
+git clone https://github.com/cypriansakwa/Ultra_Honk_zk-SNARK_Verifier.git
+cd Ultra_Honk_zk-SNARK_Verifier
+```
 ## 🧪 Usage
 
 This contract is not meant to be deployed directly. Instead, it serves as a reference or dependency for a larger verifier system.
